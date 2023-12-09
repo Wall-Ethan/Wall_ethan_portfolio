@@ -39,6 +39,7 @@ p, h3, h4, h5 {
   position: static;
   top: 0px;
   height: 100px;
+  background: url(../img/header_background.png) no-repeat;
 }
 
 #main-nav ul {
@@ -85,6 +86,11 @@ p, h3, h4, h5 {
 
 .gtop {
   height: 250px;
+  width: auto;
+}
+
+.logo_image {
+  height: 75px;
   width: auto;
 }
 

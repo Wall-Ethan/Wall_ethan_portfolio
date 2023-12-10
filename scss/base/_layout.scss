@@ -37,7 +37,13 @@
     border-bottom: 3px solid rgb(0, 0, 0);
   }
 
-
+#gallery {
+	opacity: 0;
+	transition: opacity 500ms;
+}
+#gallery.scrolled{
+	opacity: 1;
+}
 
 
 

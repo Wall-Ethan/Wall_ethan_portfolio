@@ -64,6 +64,15 @@ p, h3, h4, h5 {
   border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+#gallery {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+#gallery.scrolled {
+  opacity: 1;
+}
+
 #intro {
   background-color: rgb(129, 146, 255);
 }

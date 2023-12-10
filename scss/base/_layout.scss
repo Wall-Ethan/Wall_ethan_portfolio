@@ -1,0 +1,136 @@
+.box {
+    background-color: #b86cf7;
+  }
+  
+  .spacer {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #main-header {
+    background-color: rgb(129, 146, 255);
+    position: static;
+    top: 0px;
+    height: 100px;
+	background: url(../img/header_background.png) no-repeat;
+  }
+  
+  #main-nav ul {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0;
+  }
+  
+  #main-nav ul li {
+    display: inline-block;
+    margin-right: 28px;
+  }
+  
+  #main-nav ul li:last-child {
+    margin-right: 0px;
+  }
+  
+  #main-nav ul li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(6, 32, 204);
+  }
+  
+  /* apply to the element that has a class of 'active' */
+  #main-nav ul li a :active {
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+  }
+
+
+
+
+
+#intro {
+    background-color: rgb(129, 146, 255);
+}
+
+#vid {
+    background-color: #000000;
+}
+
+#gallery {
+    background-color: rgb(129, 146, 255);
+}
+
+#social {
+    background-color: rgb(129, 146, 255);
+}
+#showcase {
+	background: url(../img/blue_background.jpg) no-repeat;
+}
+.gtop {
+	height: 250px;
+	width: auto;
+}
+.logo_image {
+	height: 75px;
+	width: auto;
+}
+#title {
+	text-align: center;
+}
+@media screen and (min-width: 1200px){
+    #main-header {
+		background-color: rgb(129, 146, 255);
+		position:static;
+		top:0px;
+		height:100px;
+	 }
+	
+	 
+	 #main-nav button {
+	    
+		margin:0;
+		margin-top:10px;
+		margin-left:30px;
+		height:90px;
+		
+		list-style:none ;
+		display: none;
+		
+	 }
+	 
+	 
+	 #main-nav ul {
+		margin-top:-10px;
+		margin-left:30px;
+		padding:0;
+		
+	 }
+	 
+	 
+	 #main-nav ul li {
+		display: inline-flex;
+		margin-right:28px;
+	
+		
+	 }
+	 
+	 #main-nav ul li:last-child {
+	 margin-right:0px;
+	 }
+	 
+	 #main-nav ul li a {
+		color:solid rgb(6, 32, 204);
+		font-size: 20px;
+		font-family: 'Gabarito';
+		text-decoration: none;
+	 }
+	 
+	 #main-nav ul li a:hover {
+		padding-bottom:8px;
+		border-bottom: 3px solid rgb(6, 32, 204);
+	 }
+	 
+	 /* apply to the element that has a class of 'active' */
+	 #main-nav ul li a :active {
+	
+		padding-bottom:2px;
+		border-bottom: 3px solid #000000;
+	 }
+
+    }

@@ -197,7 +197,10 @@ html {
   .desktop {
     display: none;
   }
-
+ 
+  #gallery_title {
+    display: none;
+  }
   
   
 
@@ -423,6 +426,10 @@ html {
       display: none;
     }
 
+    #gallery_title {
+      display: none;
+    }
+
 
 
   /*Height for tablet grid*/
@@ -638,6 +645,10 @@ html {
     }
       
     .desktop {
+      display: block;
+    }
+
+    #gallery_title {
       display: block;
     }
 
@@ -858,6 +869,10 @@ html {
     }
       
     .desktop {
+      display: block;
+    }
+
+    #gallery_title {
       display: block;
     }
 
